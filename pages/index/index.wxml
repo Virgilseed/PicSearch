@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="container">
+
+
+  <image src="../../image/icon.png" class="icon" mode="widthFix"></image>
+  <view class="input-view">
+    <icon type="search" size="20" class="input-search-icon"/>
+    <input class="input-search-text" type="text" maxlength="50" placeholder="微信表情" placeholder-style="input-placeholder"
+    confirm-type="search" bindconfirm="bindViewSearchTap"/>
+    
+  </view>
+  
+</view>

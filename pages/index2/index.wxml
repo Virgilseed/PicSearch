@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="container">
+  <view  bindtap="bindViewTap" class="userinfo">
+    <image class="img-choose" src="{{pictureUrl}}" background-size="cover" mode="aspectFit"></image>
+    <image class="btn-choose" src="{{chooseIcon}}" background-size="cover" mode="scaleToFill"></image>
+    <text class="tip-search">{{tips}}</text>
+  </view>
+  
+  <!--<view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>-->
+</view>

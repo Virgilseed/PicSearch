@@ -1,0 +1,37 @@
+
+.input-view{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 80%;
+  height: 60rpx;
+  margin: 30rpx;
+  border-radius:4px;
+  border:1px solid #c8cccf;
+  color:#6a6f77;
+}
+.input-search-icon{
+  margin-left: 10rpx;
+}
+.input-search-text{
+  padding-left: 20rpx;
+  font-size: 30rpx;
+}
+.input-placeholder{
+}
+
+.content{
+    width: 100%;
+}
+.picture-item{
+    width: 50%;
+    height: 200px;
+    text-align: center;
+    float: left;
+    align-items: center
+}
+
+.picture-img{
+  width: 90%;
+  height: 95%;
+}

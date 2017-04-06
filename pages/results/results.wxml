@@ -1,0 +1,26 @@
+<!--index.wxml-->
+<view class="container">
+    <view class="input-view">
+        <icon type="search" size="20" class="input-search-icon"/>
+        <input class="input-search-text" type="text" maxlength="50" placeholder="{{searchText}}" placeholder-style="input-placeholder"
+        confirm-type="search" bindconfirm="bindViewSearchTap"/>
+    </view>
+
+    <scroll-view class="content" scroll-y="true" bindscrolltolower="loadMore">
+        <view wx:if="{{pictrueList}}">
+            <view wx:for="{{pictrueList}}">
+                <view wx:if="{{item}}">
+                    <view class="picture-item">
+                <image class="picture-img" src="{{item.thumbURL}}"  bindtap="bindViewClickImageTap" data-url="{{item.thumbURL}}"></image>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view wx:else>换个关键词试试</view>
+        
+        <label class="loadmore">{{loadText}}</label>
+    </scroll-view>
+    
+    <!--<view class="loadmore">{{loadText}}</view> -->
+</view>
+<!--bindlongtap="bindImageLongTap"-->

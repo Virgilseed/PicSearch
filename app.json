@@ -1,0 +1,15 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/results/results",
+    "pages/detail/detail",
+    "pages/index2/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "图搜天下",
+    "navigationBarTextStyle":"black"
+  }
+}
