@@ -14,27 +14,6 @@ Page({
   bindViewTap: function() {
     var page = this;
     page.searchPicture("美女");
-    // wx.chooseImage({
-    //   count: 1, // 最多可以选择的图片张数，默认9
-    //   sizeType: ['compressed'], // original 原图，compressed 压缩图，默认二者都有
-    //   sourceType: ['album', 'camera'], // album 从相册选图，camera 使用相机，默认二者都有
-    //   success: function(res){
-    //     // success
-    //     page.setData({
-    //       pictureUrl: res.tempFilePaths[0]
-    //     }),
-    //     page.uploadPicture(res.tempFilePaths[0]),
-    //     console.log(res.tempFilePaths)
-    //   },
-    //   fail: function(res) {
-    //     // fail
-    //     console.log(res)
-    //   },
-    //   complete: function(res) {
-    //     // complete
-    //     console.log(res)
-    //   }
-    // })
   },
 
   uploadPicture: function(path){
